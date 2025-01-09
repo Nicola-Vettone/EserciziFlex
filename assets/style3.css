@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+article div{
+    background-color: #f8e59d;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 80%;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+article img{
+    float: left;
+    width: 500px;
+
+}
+article p{
+    max-width: 100%
+
+}
+.clearfix{
+    clear: both;
+}
+article h2{
+    display: block;
+}
