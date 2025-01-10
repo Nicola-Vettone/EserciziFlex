@@ -33,20 +33,15 @@ article p{
 .title h2{
     margin-bottom: 0;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
 
     article div{
-    background-color: #FBF7E3;
-    border-radius: 25px;
-    width: 80%;
-    padding: 15px 15px 15px 40px;
-    display: flex;
     flex-direction: column-reverse;
-    flex-wrap: nowrap;
     align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 article p{
-    width: 50vh;
     margin-left: 0;
 }
 .title{
